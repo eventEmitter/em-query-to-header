@@ -1,0 +1,30 @@
+{
+      "name"                        : "em-query-to-header"
+    , "description"                 : "Takes headers from the querystring, sets them as request headers"
+    , "version"                     : "0.1.0"
+    , "homepage"                    : "https://github.com/eventEmitter/em-query-to-header"
+    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "licence"                     : "mit"
+    , "repository": {
+          "url"                     : "https://github.com/eventEmitter/em-query-to-header.git"
+        , "type"                    : "git"
+    }
+    , "engines": {
+        "node"                      : ">=v0.10.17"
+    }
+    , "bugs": {
+        "url"                       : "https://github.com/eventEmitter/em-query-to-header/issues"
+    }
+    , "dependencies": {
+          "ee-class"                : "1.0.x"
+        , "ee-log"                  : "0.2.x"
+    }
+    , "devDependencies": {
+          "mocha"                   : "1.17.x"
+    }
+    , "optionalDependencies": {}
+    , "keywords"                    : ["ee", "middleware", "querystring", "headers"]
+    , "scripts": {
+        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
+    }
+}
