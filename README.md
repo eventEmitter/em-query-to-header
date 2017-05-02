@@ -1,5 +1,7 @@
 # em-query-to-header
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/em-query-to-header.svg)](https://greenkeeper.io/)
+
 Takes headers from the querystring, sets them as request headers
 
 ## installation
